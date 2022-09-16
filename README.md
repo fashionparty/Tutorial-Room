@@ -1,6 +1,16 @@
 # Room
 Biblioteka bazodawnowa bedąca kolejną warstwą abstrakcji dla SQLite. Jest częścią pakietu Jetpack.
 
+### Zależności
+```
+implementation 'androidx.room:room-runtime:$.$.$'
+implementation 'androidx.room:room-ktx:$.$.$'
+kapt 'androidx.room:room-compiler:$.$.$'
+plugins {
+id 'kotlin-kapt'
+}
+```
+
 ### Encja
 Klasa danych oznaczona adnotacją `@Entity`. Służy jako deklaracja tabeli w bazie danych.
 
